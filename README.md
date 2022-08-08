@@ -1,1 +1,0 @@
-# programming_guidelines
