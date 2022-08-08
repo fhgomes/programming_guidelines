@@ -20,7 +20,7 @@ E uma breve descrição do que foi alterado, no campo descrição.
 Passar a tarefa para CodeReview no board agile e avisar os demais membros no canal de comunicação
 
 ## **Sobre o GitFlow**
-
+![Gitflow](./gitflow.jpg "Gitflow")
 [https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow)
 
 A branch **/develop** , será criada a partir da “main/master” e será fixa
