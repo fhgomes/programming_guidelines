@@ -27,21 +27,19 @@ A branch **/develop** , será criada a partir da “main/master” e será fixa
 A branch **/release ,** será criada a partir da “develop” e será fixa
 
 1. **Ao criar uma nova feature:** 
-
-1.1. Partir da branch **/develop**
-1.2. Retornar a PR para a branch **/develop**    
-
+  1.1. Partir da branch **/develop**
+  1.2. Retornar a PR para a branch **/develop**    
 2. **Ao criar uma hotfix ou bugfix**
-2.1. Partir da branch **/main**    
-2.2. Retornar a PR para a branch **/main**     
+  2.1. Partir da branch **/main**    
+  2.2. Retornar a PR para a branch **/main**     
 3. **Tudo que entrar na branch /main (ao integrar uma release ou hotfix)**
-3.1. Deve entrar também na branch **/develop**
-3.2. Deve entrar também na branch **/release**      
+  3.1. Deve entrar também na branch **/develop**
+  3.2. Deve entrar também na branch **/release**      
 4. **Para “gerar” uma nova release:**
-4.1.  Deve ser feito um “merge” da **/develop** na → **/release**     
+  4.1.  Deve ser feito um “merge” da **/develop** na → **/release**     
 5. **Para “encerrar” uma release, promovendo para prod**
-5.1. Deve ser feito um “merge” da **/release** na → **/develop**
-5.2. Deve ser feito um “merge” da **/release** na → **/main**
+  5.1. Deve ser feito um “merge” da **/release** na → **/develop**
+  5.2. Deve ser feito um “merge” da **/release** na → **/main**
 
 ## **Deploys:**
 
