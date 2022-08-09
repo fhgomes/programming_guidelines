@@ -6,9 +6,9 @@ Esse conjunto de diretrizes que utilizo nos meus times e projetos tem me ajudado
 mantendo ainda uma baixa taxa de bugs, débito técnico e retrabalho
 
 
-Fique a vontade para discutir com seu time e alterar, remover ou incrementar as linhas que fazem sentido.
+Fique à vontade para discutir com seu time e alterar, remover ou incrementar as linhas que fazem sentido.
 
-Apesar de estar direcionado para a linguagem Java e seu ecossitema, vários itens são mais abrangentes no desenvolvimento de software e podem ajudar em outros ecossistemas.
+Apesar de estar direcionado para a linguagem Java e seu ecossistema, vários itens são mais abrangentes no desenvolvimento de software e podem ajudar em outros ecossistemas.
 
 # Premissas:
 
@@ -84,7 +84,7 @@ ou Usar default do Intelij
     10.1. Ex: um if com retorno diferente do padrão para retornar um DTO quando for o sistema X pois o sistema X usa o DTO diferente  
     10.2. Ex: um mapeamento para XML quando o resto do sistema usa JSON 
 11. Inserir comentário quando houver uso/adaptação devido a limitação tecnológica ou arquitetural  
-    11.1. Ex: Quando, em um cenário comum um sistema Spring usaria RestTemplate mas não está utlizando por algum motivo, e usando uma implementaçao manual
+    11.1. Ex: Quando, em um cenário comum um sistema Spring usaria RestTemplate mas não está utilizando por algum motivo, e usando uma implementação manual
 
 # Código limpo, de fácil leitura e manutenção   
 
@@ -115,7 +115,7 @@ CONST ID_DEFAULT_BATATA = 567
     14.4. Não é necessário a utilização de VOs dentro de um serviço responsável pela manipulação de uma entidade, basta usar a entidade para tal, porém evitar acoplamento da camada de negócios com a camada de domínio 
 Utilizar camelCase para nomear propriedades de DTOs ao criar JSONs do próprio sistema 
 15. Proteja-se quanto a nullos  
-    15.1. Be safe, verifique as possibilidades de nulos no seu código não confie em lógicas de métodos externos / publicos  
+    15.1. Be safe, verifique as possibilidades de nulos no seu código não confie em lógicas de métodos externos / públicos  
     15.2. Optional by Stuart Marks https://www.youtube.com/watch?reload=9&v=fBYhtvY19xA
 
 # Nomenclaturas e convenções gerais   
