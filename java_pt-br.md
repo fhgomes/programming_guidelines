@@ -123,10 +123,10 @@ Utilizar camelCase para nomear propriedades de DTOs ao criar JSONs do próprio s
 9. Prefira quebras de nível superior para diminuir o nível-breaks. 
 10. Abertura das chaves "{" aparece no fim da mesma linha que foi declarado o código;  
 11. Fechamento das chaves "}" começa uma linha alinhada no conjunto do método a qual foi criada, exceto quando há códigos em parte em branco (vazio) ou nulo}"devendo aparecer imediatamente depois de aberto com "{" 
-12. Every variable declaration (field or local) declares only one variable: 
-    12.1 declarations such as int a, b; are not used.
-13. Evitar dar enter entre declaração de variáveis
-    13.1. Usar quando tiver algum element acima da declaração. Ex: @Mock , Ex: //Variavel legal
+12. Every variable declaration (field or local) declares only one variable:  
+    12.1 declarations such as int a, b; are not used.  
+13. Evitar dar enter entre declaração de variáveis  
+    13.1. Usar quando tiver algum element acima da declaração. Ex: @Mock , Ex: //Variavel legal  
 14. Evitar dar enter em declaração de métodos de interfaces
 
 # Idiomas 
@@ -177,12 +177,12 @@ Portugues (pt-BR) - English (en-US)
 16. Verificar o check-list de itens específicos do projeto  
 17. Verificar Branchs e commits  
     17.1. Os commits feitos tiveram boas descrições? Foram curtos?  
-    17.2 O nome da branch criada segue os padrões do projeto ou empresa  
-    17.3 Existe referência ao work item Redmine/JIRA e/ou número de chamado?  
-18. Caso o projeto não tenha um CI integrado com o PR, executar o JOB de CI para rodar os testes e sonar da branch que está sendo avaliada.  
+    17.2 O nome da branch criada segue os padrões do projeto ou empresa    
+    17.3 Existe referência ao work item Redmine/JIRA e/ou número de chamado?    
+18. Caso o projeto não tenha um CI integrado com o PR, executar o JOB de CI para rodar os testes e sonar da branch que está sendo avaliada.    
     18.1 Caso não houver, rodar manual  
 19. O Sonar foi passado nesta branch ? O SonarLint foi analisado?  
-    19.1. Algumas vezes é uma branch parcial e não é interessante rodar no servidor geral, mas o desenvolvedor pode rodar local.  
+    19.1. Algumas vezes é uma branch parcial e não é interessante rodar no servidor geral, mas o desenvolvedor pode rodar local.    
     19.2. Algumas vezes somente o SonarLint já ajuda a pegar muitos code smells ou bugs  
 20. Existem / foram alterados LOGs 
 21. Tem alguma falha de segurança 
