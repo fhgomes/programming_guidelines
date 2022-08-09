@@ -202,9 +202,10 @@ Portugues (pt-BR) - English (en-US)
 10. Processos estabelecidos de homologação 
 
 # Versionamento de código (git e commits)  
+
 1. Seguir o Fluxo de Branchs - Gitflow definido pelo time
 2. Faça commits pequenos, se possível diários  
-3. Na mensagem no commit inserir o padrão “numeroDaIssue - descrição...” 
+3. Na mensagem no commit inserir o padrão “numeroDaIssue - descrição...”  
     3.1. exemplo: “FERNANDO-30 Refatoração Classe X”, desta forma, no JIRA será feito o relacionamento do código com a issue, para fim de rastreabilidade.  
 4. Nome da branch deve seguir o padrão com o código da issue, feature/FERNANDO-X e pode ser adicionando um texto de identificacao. Ex:  feature/FERNANDO-X_fix_code_x 
 5. Padrão de prefixo do gitflow para branchs. Ex: feature/ , hotfix/, etc 
@@ -215,16 +216,16 @@ Portugues (pt-BR) - English (en-US)
     1.1. Lançamento do Junit5 https://www.youtube.com/watch?v=0qI6_NKFQsY
     1.2. Diferenças do Junit4 para o 5 https://www.youtube.com/watch?v=vEr6QHil2xI
 2. Usar 1 cenário por teste 
-3. Usar um passo a passo para o teste “given when then” 
+3. Usar um passo a passo para o teste “given when then”  
 4. A anotação @DisplayName, deverá ser utilizada para facilitar a entendimento do cenário de teste que está sendo realizado pelo método, classe e etc  
-    4.1. Procurar usar o pattern: “Should do something when some condition”
-    4.1.1. ex: Should not throw any exception when dto values are valid"
-    4.2. Em Kotlin é possível usar métodos com nomes em String entre ` ` 
-    4.3. Utilização desses recursos permite uma melhor legibilidade dos códigos quando quebram, principalmente em ambientes automatizados 
+    4.1. Procurar usar o pattern: “Should do something when some condition”  
+        4.1.1. ex: Should not throw any exception when dto values are valid"  
+    4.2. Em Kotlin é possível usar métodos com nomes em String entre ` `   
+    4.3. Utilização desses recursos permite uma melhor legibilidade dos códigos quando quebram, principalmente em ambientes automatizados  
 5. Prefira o uso de testes unitários sobre de integração, os mesmos têm custo mais baixo para implementação e para execução.  
 6. Evitar testar comportamento interno, melhor checkar o resultado esperado – ex: ao invés de testar com verify, testar o resultado  
 7. Evite ao máximo realizar verify no final do teste  
-8. Verify geralmente está associado ao comportamento e fluxo interno e não ao resultado esperado 
+8. Verify geralmente está associado ao comportamento e fluxo interno e não ao resultado esperado  
     8.1. Exceto para casos que realmente o comportamento é significativo. Ex: ao salvar deve obrigatoriamente chamar a Auditoria 
 9. Preferencialmente realize apenas um assert ao final, criando variações do teste para validar demais asserts  
     9.1. Lembrando que muitos asserts, pode ser sinal de falha no design  
@@ -240,7 +241,7 @@ Portugues (pt-BR) - English (en-US)
 3. Evitar ao máximo alterar arquivos, fazer a evolução com arquivos novos  
 4. Separar em pequenos arquivos com as execuções de SQLs  
 5. Fazer apenas uma instrução por arquivo 
-6. É uma boa prática usar o sequencial com data-hora_codigo_da_issue_descricao 
+6. É uma boa prática usar o sequencial com data-hora_codigo_da_issue_descricao  
     6.1.  Ex 10/08/2020 as 18:10:01 é criado o arquivo “V2020.08.10.18.10_FERNANDO-000_criar_tabela_x.sql” 
 7. Utilizar scripts idepotentes 
 8. Fazer checkagem se já foi executado ou se já existe na base
