@@ -284,26 +284,27 @@ Portugues (pt-BR) - English (en-US)
 
 ## Débito Tecnico 
 
-Blocker Issues is greater than 0 (error) 
-Critical Issues is greater than 0 (error)  
-Major Issues is greater than 1 (error) 
-Bugs is greater than 0 (warn) 5 (error) 
-Vulnerabilities is greater than 0 (error) 
-Minor Issues is greater than 5 (warn) 10 (error) 
-Code Smells is greater than 10 (warn) 15 (error) 
-Technical Debt is greater than 2d (error) 
+* Blocker Issues is greater than 0 (error) 
+* Critical Issues is greater than 0 (error)  
+* Major Issues is greater than 1 (error) 
+* Bugs is greater than 0 (warn) 5 (error) 
+* Vulnerabilities is greater than 0 (error) 
+* Minor Issues is greater than 5 (warn) 10 (error) 
+* Code Smells is greater than 10 (warn) 15 (error) 
+* Technical Debt is greater than 2d (error) 
 
 ## Testes
-Coverage on new code is less than is less than 80% (warn) 60.0% (error) 
-Condition Coverage on New Code is less than 80% (warn) 60.0% (error) 
-Skipped Unit Tests is greater than 1 (error) 
+
+* Coverage on new code is less than is less than 80% (warn) 60.0% (error) 
+* Condition Coverage on New Code is less than 80% (warn) 60.0% (error) 
+* Skipped Unit Tests is greater than 1 (error) 
 
 ## Leitura e Manutenabilidade
 
-Duplicated Lines (%) is greater than 1,5% (warn) 3% (error)
-Maintainability Rating on New Code is worse than A (error)
-Reliability Rating is worse than A (error)
-Security Rating is worse than A (error) 
+* Duplicated Lines (%) is greater than 1,5% (warn) 3% (error)
+* Maintainability Rating on New Code is worse than A (error)
+* Reliability Rating is worse than A (error)
+* Security Rating is worse than A (error) 
 
 # Referencias: 
 
