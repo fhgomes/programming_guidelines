@@ -60,7 +60,7 @@ ou Usar default do Intelij
 ## Quando usar comentários: 
 
 1. Documentar quando for algo específico de negócio 
-2. Cálculos ou Formulas para que não fiquem perdidos sem sentido
+2. Cálculos ou Formulas para que não fiquem perdidos sem sentido  
     2.1. Exceto contas e resultados simples. EX: 24*60 
 3. Fluxos de código / negócio 
 4. Quando o código é bastante complexo e não é possível reescrever/quebrar/refatorar ou dividir as responsabilidades 
