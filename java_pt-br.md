@@ -212,9 +212,9 @@ Portugues (pt-BR) - English (en-US)
 
 # Recomendações e boas práticas em testes unitários  
 
-1. Prefira o uso de Junit5
-    1.1. Lançamento do Junit5 https://www.youtube.com/watch?v=0qI6_NKFQsY
-    1.2. Diferenças do Junit4 para o 5 https://www.youtube.com/watch?v=vEr6QHil2xI
+1. Prefira o uso de Junit5  
+    1.1. Lançamento do Junit5 https://www.youtube.com/watch?v=0qI6_NKFQsY  
+    1.2. Diferenças do Junit4 para o 5 https://www.youtube.com/watch?v=vEr6QHil2xI  
 2. Usar 1 cenário por teste 
 3. Usar um passo a passo para o teste “given when then”  
 4. A anotação @DisplayName, deverá ser utilizada para facilitar a entendimento do cenário de teste que está sendo realizado pelo método, classe e etc  
