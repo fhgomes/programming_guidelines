@@ -92,8 +92,8 @@ CONST ID_DEFAULT_BATATA = 567
 6. Números como 0, 1, 2, 10, 100 não são necessariamente números mágicos. Muitas vezes vale a pena deixá-los assim, exceto se for algo que pode vir a ser mutável/parametrizável. Sempre depende do contexto 
 7. Outros números notáveis e situações (como 30, 60, 24) depende do contexto (contexto de data/hora) 
 8. Prefira utilizar:  
-    8.1. StringUtils.isEmpty para verificar strings vazias 
-    8.2. Objects.isNull e Objects.nonNull para verificar nulos.  
+    8.1. StringUtils.isEmpty para verificar strings vazias  
+    8.2. Objects.isNull e Objects.nonNull para verificar nulos  
     8.3 Collections.isEmpty para verificar coleções vazia  
 9. Evite o uso extenso de lambdas e procure uma boa endentação 
 10. Evite utilizar expressões e de lambdas dentro de setters e construtores  
