@@ -54,7 +54,7 @@ ou Usar default do Intelij
 4. Não adicionar comentários redundantes  
     4.1. Ex: adicionar o mesmo nome, mas em português  
     4.2. Ex: CarService -> /** Serviço que gerencia carros */   
-5. Não use comentários em classes e métodos que já seguem a convenção da linguagem ou framework 
+5. Não use comentários em classes e métodos que já seguem a convenção da linguagem ou framework  
     5.1. Ex: SessionHTTPInterceptor – /** Um interceptador da sessão http  */ 
 
 ## Quando usar comentários: 
