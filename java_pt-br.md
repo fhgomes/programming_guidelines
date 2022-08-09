@@ -1,6 +1,10 @@
+Me chamo Fernando Gomes,
+Segue abaixo um conjunto re padronizações e itens que considero boas práticas que venho adotando nos últimos anos.
+Esse conjunto de diretrizes que utilizo nos meus times e projetos tem me ajudado a ter maior unidade e velocidade no desenvolvimento,
+mantendo ainda uma baixa taxa de bugs, débito técnico e retrabalho
 
-Estas as diretrizes de desenvolvimento de software que utilizo nos meus times e projetos
-
+Fique a vontade para discutir com seu time e alterar, remover ou incrementar as linhas que fazem sentido.
+Apesar de estar direcionado para a linguagem Java e seu ecossitema, vários itens são mais abrangentes no desenvolvimento de software e podem ajudar em outros ecossistemas.
 
 # Premissas:
 
@@ -78,7 +82,7 @@ ou Usar default do Intelij
 11. Inserir comentário quando houver uso/adaptação devido a limitação tecnológica ou arquitetural  
     11.1. Ex: Quando, em um cenário comum um sistema Spring usaria RestTemplate mas não está utlizando por algum motivo, e usando uma implementaçao manual
 
-# Clean Code  
+# Código limpo, de fácil leitura e manutenção   
 
 1. Utilizar dos princípios do clean code e deixar atributos, variáveis, classes e métodos com nomes significativos 
 2. Não deixe números e caracteres fixos e soltos no código, utilize constantes  
