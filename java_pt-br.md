@@ -67,22 +67,22 @@ ou Usar default do Intelij
 
 1. Documentar quando for algo específico de negócio 
 2. Cálculos ou Formulas para que não fiquem perdidos sem sentido
-3.1. Exceto contas e resultados simples. EX: 24*60 
-4. Fluxos de código / negócio 
-5. Quando o código é bastante complexo e não é possível reescrever/quebrar/refatorar ou dividir as responsabilidades 
-6. Documentar quando o código (métodos públicos) for externalizado como LIB/FRAMEWORK 
-7. Documentar Rest APIs (Swagger) 
-8. Quando for um BFF não é necessária uma documentação ampla 
-9. Utilizar as convenções de documentação das ferramentas (Swagger) 
-10. Inserir comentário quando houver um comportamento que não é "comum/convenção" em implementações (ou que possa ferir algum princípio clean code / solid, mas que seja importante).  
-11.1. Ex: Não tratar um catch de uma exception  
-12.2. Ex: Tratar uma exception da mesma forma que o código normal  
-13.3. Ex: Fazer dois loops, ou vários if/else que seria substituível por um estrategy 
-14. Inserir comentário quando houver uso/adaptação para um sistema externo  
-15.1. Ex: um if com retorno diferente do padrão para retornar um DTO quando for o sistema X pois o sistema X usa o DTO diferente  
-16.2. Ex: um mapeamento para XML quando o resto do sistema usa JSON 
+2.1. Exceto contas e resultados simples. EX: 24*60 
+3. Fluxos de código / negócio 
+4. Quando o código é bastante complexo e não é possível reescrever/quebrar/refatorar ou dividir as responsabilidades 
+5. Documentar quando o código (métodos públicos) for externalizado como LIB/FRAMEWORK 
+6. Documentar Rest APIs (Swagger) 
+7. Quando for um BFF não é necessária uma documentação ampla 
+8. Utilizar as convenções de documentação das ferramentas (Swagger) 
+9. Inserir comentário quando houver um comportamento que não é "comum/convenção" em implementações (ou que possa ferir algum princípio clean code / solid, mas que seja importante).  
+9.1. Ex: Não tratar um catch de uma exception  
+9.2. Ex: Tratar uma exception da mesma forma que o código normal  
+9.3. Ex: Fazer dois loops, ou vários if/else que seria substituível por um estrategy 
+10. Inserir comentário quando houver uso/adaptação para um sistema externo  
+10.1. Ex: um if com retorno diferente do padrão para retornar um DTO quando for o sistema X pois o sistema X usa o DTO diferente  
+10.2. Ex: um mapeamento para XML quando o resto do sistema usa JSON 
 Inserir comentário quando houver uso/adaptação devido a limitação tecnológica ou arquitetural  
-16.3. Ex: Quando, em um cenário comum um sistema Spring usaria RestTemplate mas não está utlizando por algum motivo, e usando uma implementaçao manual
+10.3. Ex: Quando, em um cenário comum um sistema Spring usaria RestTemplate mas não está utlizando por algum motivo, e usando uma implementaçao manual
 
 # Clean Code  
 
@@ -215,9 +215,9 @@ Portugues (pt-BR) - English (en-US)
 
 # Recomendações e boas práticas em testes unitários  
 
-1. Prefira o uso de Junit5 
-1.1 Lançamento do Junit5 https://www.youtube.com/watch?v=0qI6_NKFQsY
-1.2 Diferenças do Junit4 para o 5 https://www.youtube.com/watch?v=vEr6QHil2xI
+1. Prefira o uso de Junit5
+1.1. Lançamento do Junit5 https://www.youtube.com/watch?v=0qI6_NKFQsY
+1.2. Diferenças do Junit4 para o 5 https://www.youtube.com/watch?v=vEr6QHil2xI
 2. Usar 1 cenário por teste 
 3. Usar um passo a passo para o teste “given when then” 
 4. A anotação @DisplayName, deverá ser utilizada para facilitar a entendimento do cenário de teste que está sendo realizado pelo método, classe e etc  
