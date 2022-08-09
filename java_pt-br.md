@@ -1,9 +1,13 @@
 Me chamo Fernando Gomes,
+
 Segue abaixo um conjunto re padronizações e itens que considero boas práticas que venho adotando nos últimos anos.
+
 Esse conjunto de diretrizes que utilizo nos meus times e projetos tem me ajudado a ter maior unidade e velocidade no desenvolvimento,
 mantendo ainda uma baixa taxa de bugs, débito técnico e retrabalho
 
+
 Fique a vontade para discutir com seu time e alterar, remover ou incrementar as linhas que fazem sentido.
+
 Apesar de estar direcionado para a linguagem Java e seu ecossitema, vários itens são mais abrangentes no desenvolvimento de software e podem ajudar em outros ecossistemas.
 
 # Premissas:
