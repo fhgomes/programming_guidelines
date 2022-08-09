@@ -33,8 +33,8 @@ ou Usar default do Intelij
 9. Tenha cuidado e pense em concorrência caso utilize threads, filas, jobs, ou sistemas simultâneos
 10. Quando houver mais de 4 parâmetros para construir uma classe, pode ser utilizado o padrão builder
 11. Quando houver mais de 4 parâmetros para um método, avalie a refatoração ou utilização de um objeto com os parâmetros
-12. Em casos de Constantes, Properties, Pom, Gradle, e similares,  manter organização por agrupamentos e por ordem alfabética.
-    12.1. Exemplo, agrupar mensagens  por telas, ou por pacotes. 
+12. Em casos de Constantes, Properties, Pom, Gradle, e similares,  manter organização por agrupamentos e por ordem alfabética.  
+    12.1. Exemplo, agrupar mensagens  por telas, ou por pacotes.  
     12.2. Exemplo, agrupar dependências do mesmo provider
 
 # Imports: 
