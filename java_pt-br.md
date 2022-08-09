@@ -107,7 +107,7 @@ CONST ID_DEFAULT_BATATA = 567
     14.4. Não é necessário a utilização de VOs dentro de um serviço responsável pela manipulação de uma entidade, basta usar a entidade para tal, porém evitar acoplamento da camada de negócios com a camada de domínio 
 Utilizar camelCase para nomear propriedades de DTOs ao criar JSONs do próprio sistema 
 15. Proteja-se quanto a nullos  
-    15.1. Be safe, verifique as possibilidades de nulos no seu código não confie em lógicas de métodos externos / publicos
+    15.1. Be safe, verifique as possibilidades de nulos no seu código não confie em lógicas de métodos externos / publicos  
     15.2. Optional by Stuart Marks https://www.youtube.com/watch?reload=9&v=fBYhtvY19xA
 
 # Nomenclaturas e convenções gerais   
