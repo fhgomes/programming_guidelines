@@ -91,24 +91,24 @@ CONST ID_DEFAULT_BATATA = 567
  Processar (ID_DEFAULT_BATATA) 
 6. Números como 0, 1, 2, 10, 100 não são necessariamente números mágicos. Muitas vezes vale a pena deixá-los assim, exceto se for algo que pode vir a ser mutável/parametrizável. Sempre depende do contexto 
 7. Outros números notáveis e situações (como 30, 60, 24) depende do contexto (contexto de data/hora) 
-9. Prefira utilizar:
-    9.1. StringUtils.isEmpty para verificar strings vazias 
-    9.2. Objects.isNull e Objects.nonNull para verificar nulos.  
-    9.3 Collections.isEmpty para verificar coleções vazia  
-10. Evite o uso extenso de lambdas e procure uma boa endentação 
-11. Evite utilizar expressões e de lambdas dentro de setters e construtores  
-12. Programe defensivamente verificando Nulls antes de acessar propriedades de objetos  
-13. Procure um retorno rápido e evite blocos em IF/ELSE (Early return pattern)  
-14. Verificações IF de exceção ou retorno podem ser executadas no início e sem um ELSE 
-15. Uso de DTOs e VOs  
-    15.1. Deverá sempre ser utilizado o sufixo DTO para designar que a classe é um objeto que poderá transportar dados para dentro ou fora do sistema. Nesse caso deverá sempre utilizar os mapeamentos json do framework "jackson".  
-    15.2. Os DTO deverão estar no modulo/package "share" (ou similar) para serem compartilhados entre camada de entrada e cada de negócios.  
-    15.3. Deverá sempre ser utilizado o sufixo VO para designar que a classe é utilizada apenas como transitória internamente. Pode ser para passagem de parâmetros, pode para um Cálculo temporário, pode ser uma tradução temporária entre objetos   
-    15.4. Não é necessário a utilização de VOs dentro de um serviço responsável pela manipulação de uma entidade, basta usar a entidade para tal, porém evitar acoplamento da camada de negócios com a camada de domínio 
+8. Prefira utilizar:  
+    8.1. StringUtils.isEmpty para verificar strings vazias 
+    8.2. Objects.isNull e Objects.nonNull para verificar nulos.  
+    8.3 Collections.isEmpty para verificar coleções vazia  
+9. Evite o uso extenso de lambdas e procure uma boa endentação 
+10. Evite utilizar expressões e de lambdas dentro de setters e construtores  
+11. Programe defensivamente verificando Nulls antes de acessar propriedades de objetos  
+12. Procure um retorno rápido e evite blocos em IF/ELSE (Early return pattern)  
+13. Verificações IF de exceção ou retorno podem ser executadas no início e sem um ELSE 
+14. Uso de DTOs e VOs  
+    14.1. Deverá sempre ser utilizado o sufixo DTO para designar que a classe é um objeto que poderá transportar dados para dentro ou fora do sistema. Nesse caso deverá sempre utilizar os mapeamentos json do framework "jackson".  
+    14.2. Os DTO deverão estar no modulo/package "share" (ou similar) para serem compartilhados entre camada de entrada e cada de negócios.  
+    14.3. Deverá sempre ser utilizado o sufixo VO para designar que a classe é utilizada apenas como transitória internamente. Pode ser para passagem de parâmetros, pode para um Cálculo temporário, pode ser uma tradução temporária entre objetos   
+    14.4. Não é necessário a utilização de VOs dentro de um serviço responsável pela manipulação de uma entidade, basta usar a entidade para tal, porém evitar acoplamento da camada de negócios com a camada de domínio 
 Utilizar camelCase para nomear propriedades de DTOs ao criar JSONs do próprio sistema 
-16. Proteja-se quanto a nullos
-    16.1. Be safe, verifique as possibilidades de nulos no seu código não confie em lógicas de métodos externos / publicos
-    16.2. Optional by Stuart Marks https://www.youtube.com/watch?reload=9&v=fBYhtvY19xA
+15. Proteja-se quanto a nullos  
+    15.1. Be safe, verifique as possibilidades de nulos no seu código não confie em lógicas de métodos externos / publicos
+    15.2. Optional by Stuart Marks https://www.youtube.com/watch?reload=9&v=fBYhtvY19xA
 
 # Nomenclaturas e convenções gerais   
 
