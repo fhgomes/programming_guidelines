@@ -24,6 +24,9 @@ Apesar de estar direcionado para a linguagem Java e seu ecossistema, vários ite
 
 https://google.github.io/styleguide/javaguide.html 
 
+Style guide recommendations to use VAR
+https://github.com/openjdk/amber-docs/blob/master/site/guides/lvti-faq.md
+
 # Kotlin Guideline recomendado:  
 https://developer.android.com/kotlin/style-guide 
 ou Usar default do Intelij 
